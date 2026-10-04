@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Bolivar's software engineering portfolio.">
     <title>David Bolivar | Software Engineering Portfolio</title>
     <link rel="stylesheet" href="dark.css">
 </head>
@@ -10,46 +11,66 @@
 <body>
     <header class="hero">
         <h1>David Bolivar</h1>
-        <p>Computer Science Student • Software Engineering • Full-Stack Development</p>
+        <p>Computer Science Student • Full-Stack Development • Systems &amp; Infrastructure</p>
         <a href="#projects" class="btn">See Projects</a>
     </header>
 
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science student at Brigham Young University - Idaho with a Minor in AI Engineering. I enjoy building full-stack applications, working with databases, and solving problems across the software stack. I also have hands-on experience with Linux administration, Docker, CI/CD, and server infrastructure.
-        </p>
-    </section>
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science student at Brigham Young University–Idaho pursuing a minor in AI Engineering. I have built full-stack applications with React, Node.js, Python, C#, PostgreSQL, and Firebase, and work with Linux, Docker, CI/CD, and self-hosted infrastructure.
+            </p>
+        </section>
 
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Inventory Management Interface</h3>
-                <p>Full-stack inventory application built independently with React (Vite), C#, PostgreSQL, Google OAuth 2.0, and GitHub Actions. Includes CRUD functionality, a normalized relational schema, and automated deployment to Render.</p>
-                <a href="https://github.com/davidbolivar577/SupplySync" target="_blank" class="project-btn">See Code</a>
+        <section id="skills" class="section">
+            <h2>Technical Focus</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>React, Node.js, JavaScript, TypeScript, HTML/CSS</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Programming &amp; Data</h3>
+                    <p>Python, C#, SQL, Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Systems &amp; Automation</h3>
+                    <p>Linux, Docker, Proxmox, Git, GitHub Actions, CI/CD</p>
+                </div>
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3>Live Messaging Web Application</h3>
-                <p>Responsive real-time messaging application developed with a 5-person agile team across 6 sprints using React (Vite) and Google Firebase. Uses Firebase event listeners for low-latency NoSQL data synchronization.</p>
-                <a href="https://github.com/davidbolivar577/Bulletiin" target="_blank" class="project-btn">See Code</a>
-                <a href="https://bulletiin.web.app/" target="_blank" class="project-btn">Live Site</a>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Inventory Management Interface</h3>
+                    <p>Full-stack inventory application built independently with React (Vite), PostgreSQL, Google OAuth 2.0, and GitHub Actions. Includes CRUD functionality, a normalized relational schema, and automated deployment to Render.</p>
+                    <a href="https://github.com/davidbolivar577/SupplySync" target="_blank" rel="noopener noreferrer" class="project-btn">See Code</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Live Messaging Web Application</h3>
+                    <p>Responsive real-time messaging application developed with a 5-person Agile team across 6 sprints using React (Vite) and Google Firebase. Uses Firebase event listeners for low-latency NoSQL data synchronization.</p>
+                    <a href="https://github.com/davidbolivar577/Bulletiin" target="_blank" rel="noopener noreferrer" class="project-btn">See Code</a>
+                    <a href="https://bulletiin.web.app/" target="_blank" rel="noopener noreferrer" class="project-btn">Live Site</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Personal Server Infrastructure</h3>
+                    <p>Personal Linux server environment running Proxmox on a Dell PowerEdge R620, with multiple virtual machines and containers. Used for Linux administration, infrastructure management, scripting, troubleshooting, and self-hosted services.</p>
+                </article>
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3>Personal Server Infrastructure</h3>
-                <p>Personal Linux server environment running Proxmox on a Dell PowerEdge R620, with multiple virtual machines and containers. Used for hands-on Linux administration, infrastructure management, scripting, troubleshooting, and experimenting with self-hosted services.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>GitHub: <strong><a href="https://github.com/davidbolivar577" target="_blank">davidbolivar577</a></strong></p>
-        <p>LinkedIn: <strong><a href="https://www.linkedin.com/in/david-bolivar-b916b139b/" target="_blank">David Bolivar</a></strong></p>
-    </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>GitHub: <strong><a href="https://github.com/davidbolivar577" target="_blank" rel="noopener noreferrer">davidbolivar577</a></strong></p>
+            <p>LinkedIn: <strong><a href="https://www.linkedin.com/in/david-bolivar-b916b139b/" target="_blank" rel="noopener noreferrer">David Bolivar</a></strong></p>
+        </section>
+    </main>
 
     <footer>
         <p>© 2026 David Bolivar</p>
